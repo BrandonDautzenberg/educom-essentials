@@ -20,4 +20,10 @@ Je treft bij elke module een overzichtje aan van de concepten die behandeld word
 ## Ervaring
 Ervaring kunnen we je helaas niet leren, die zul je zelf op moeten doen. Maar dat maakt meteen het werken in IT een geweldige uitdaging: er komen om de haverklap nieuwe tools, versies en platformen beschikbaar waardoor je eigenlijk altijd blijft leren
 
-test
+#1 
+Tekst doorgenomen
+
+#2 
+Visual Studio Code + plugins geïnstalleerd
+Draw.io plugin geïnstalleerd
+
