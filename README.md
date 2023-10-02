@@ -27,3 +27,6 @@ Tekst doorgenomen
 Visual Studio Code + plugins geïnstalleerd
 Draw.io plugin geïnstalleerd
 
+#3
+Webserver geïnstalleerd
+
