@@ -1,0 +1,142 @@
+Verschillende soorten gegevensformaten en voorbeelden
+
+=== JavaScript Object Notation ===
+JSON wordt met name gebruikt om data van een server naar de webpage te sturen. JSON is 'self-describing' en daarom makkelijk om te begrijpen. Regels van JSON Syntax:
+* Data staat in key/value pairs
+* Data wordt gescheiden met een komma
+* {} worden gebruikt voor objecten
+* [] worden gebruikt voor arrays
+
+voorbeeld 1: Huisdieren object
+
+{
+"Huisdieren":[
+	{"naam":"Apollo", "Dier":"Konijn"},
+	{"naam":"Coco", "Dier":"Konijn"},
+ 	{"naam":"Moya", "Dier":"Konijn"},
+	{"Naam":"Melina", "Dier":"Konijn"},
+	{"Naam":"Nomi", "Dier"; Hond"}
+]
+}
+
+Voorbeeld 2: Informatie Parijs
+{
+	"id": 1,
+	"stad": "Parijs",
+	"temperatuur": 21,
+	"wijk": [
+		"Les Halles",
+		"Gaillon",
+		"Notre-Dame"
+	],
+	"inwoners": 2141000
+}
+
+=== Joint Photographic Experts Group (.JPEG if JPG) === 
+Bestandstype dat wordt gebruikt voor rasterafbeeldfingen. Vergroten en herhaardelijk comprimeren zorgt echter voor kwaliteitsverlies, dit in tegenstelling tot SVG (Scalable Vector Graphics).
+
+=== Graphics Interchange Format (.GIF) ===
+Korte bewegende fragmenten met een lage resolutie. Deze worden voornamelijk op het internet gebruikt.
+Bestanden met dit type zijn echter niet geschikt voor foto's door het beperkte bereik van kleur. 
+
+=== Scalable Vector Graphics (.SVG) ===
+Subset van XML. SVG afbeeldingen kunnen gemaakt worden met een text editor. Het SVG formaat heeft standaard enkele vormen gedefinieerd die makkelijk kunnen worden gebruikt door ontwikkelaars.
+
+Bijvoorbeeld het creëren van een blauwe rechthoek:
+
+<svg width="400" height="110">
+  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+4
+
+SVG kan ook worden gebruikt om tekst te manipuleren. Bijvoorbeeld aan de hand van deze code:
+
+<svg height="60" width="200">
+  <text x="0" y="15" fill="black" transform="rotate(30 20,40)">Deze tekst is gedraaid</text>
+</svg>
+
+=== Portable Document Format (.PDF) ===
+Industriestandaard bestand dat meer stabiliteit biedt wat betreft structuur dan docx bestanden. 
+PDF bestanden worden ingelezen door o.a. Acrobat Reader.
+
+=== DOCX (.docx) ===
+Gegevensformaat gebruikt door Microsoft Word voor tekstbewerking. DOCX is de opvolger van DOC. 
+DOCX bestanden worden gemaakt via Office Open XML. Wordt veelal gebruikt als template voor brieven, CV's en artikelen.
+
+=== Markdown ===
+Dit gegevensformaat is een minder expressieve variant van HTML. In tegenstelling tot HTML is Markdown volledig bedoeld voor het formatteren van tekst en dus niet het maken van webpagina's. 
+
+Voorbeeld 1: Citaten
+in Markdown:
+> Don't try to solve serious matters in the middle of the night. - Philip K. Dick
+
+in HTML
+<blockquote>
+  <p>Don't try to solve serious matters in the middle of the night. - Philip K. Dick</p>
+</blockquote>
+
+Voorbeeld 2: Afbeeldingen
+in Markdown:
+![My Alt Text](/path/to/my/pic.jpg "My Optional Title Text")
+
+in HTML: 
+<img alt="My Alt Text" title="My Optional Title Text" src="/path/to/my/pic.jpg">
+
+=== MPEG-1 Audio Layer (.MP3) ===
+Gegevensformaat geschikt voor het comprimeren van geluid. 
+
+=== MPEG-4 (.MP4) === 
+Multimedia bestandsformaat dat wordt gebruikt voor geluid en video. Het formaat is verdeeld in twee onderdelen:
+- media data (bevat video, geluid, ondertiteling)
+- meta data (bevat o.a. de timestamps voor de media data)
+
+=== Comma-separated values (.CSV) ===
+Gegevensformaat waarbij de individuele waarden worden gescheiden door een komma. Dit maakt het makkelijk om deze gegevens te manipuleren of deze te importeren via Excel. 
+
+Voorbeeld 1: Autogegevens:
+
+
+=== ISO (.ISO) ===
+Wordt ook wel ISO image genoemd. In feite is dit een exacte kopie van de gegevens die opgeslagen zijn op een CD. 
+
+=== eXtended Markup Language (.XML) ===
+Dit is een manier om data te tansporteren en te bewaren. XML zelf doet als het ware eigenlijk niks. Het is pure informatie die wordt gedefinieerd binnen de tags. In tegenstelling tot HTML kan de gebruiker van XML zelf de tags definiëren. 
+
+Voorbeeld 1: CD-gegevens
+
+<CD>
+<TITLE>PETRODRAGONIC APOCALYPSE</TITLE>
+<ARTIST>KING GIZZARD & THE LIZARD WIZARD</ARTIST>
+<COUNTRY>AUSTRALIA</COUNTRY>
+<LABEL>INERTIA MUSIC</LABEL>
+<PRICE>10.90</PRICE>
+<YEAR>2023</YEAR>
+</CD>
+
+
+Voorbeeld 2: Voedsel-gegevens
+<food>
+<name>Belgian Waffles</name>
+<price>$5.95</price>
+<description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+<calories>650</calories>
+</food>
+
+=== Yet Another Markup Language (YAML) ===
+YAML gebruikt een .yml of .yaml extensie. YAML wordt voornamelijk gebruikt voor configuration files. 
+In tegenstelling tot JSON kan er wel comments worden geplaatst. 
+
+---
+# A list of tasty fruits
+- Apple
+- Orange
+- Strawberry
+- Mango
+...
+
+---
+# A Trainee Record
+Brandon:
+  name: Brandon Dautzenberg
+  Traineeship: Software Developer Educom
+  Age: 30
